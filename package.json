@@ -1,0 +1,69 @@
+{
+  "name": "vue-menu-nav",
+  "version": "0.0.1",
+  "description": "一个目录与视图联动的导航组件，类似于百度百科的目录(A navigation component linked to a directory and a view)。",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "webpack-dev-server --inline --progress --config webpack.config.js",
+    "lint": "eslint --ext .js,.vue src",
+    "format": "prettier --config ./.prettierrc.yaml --write '**/*.{js,bue,css,scss}'",
+    "precommit": "pretty-quick --staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txs1992/vue-directory-navigation.git"
+  },
+  "keywords": [
+    "vue-directory-navigation",
+    "VueDirectoryNavigation",
+    "directory-navigation",
+    "DirectoryNavigation",
+    "navigation"
+  ],
+  "author": "txs1992",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/txs1992/vue-directory-navigation/issues"
+  },
+  "homepage": "https://github.com/txs1992/vue-directory-navigation#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "express": "^4.16.4",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0",
+    "rollup": "^1.7.4",
+    "rollup-plugin-commonjs": "^9.2.2",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-vue": "^4.7.2",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-middleware": "^3.6.1",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
